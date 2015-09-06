@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h1>This is BLOG!!!</h1>
+<p>Hello blog.</p>
+
+<h2>Blog posts</h2>
+<ul>
+	{% for blogpost in site.categories.blog %}
+	<li>
+		<a href="{{site.baseurl}}{{blogpost.url}}">{{ blogpost.title }}</a>
+		<p>{{ blogpost.meta }}</p>
+	</li>
+	{% endfor %}
+</ul>

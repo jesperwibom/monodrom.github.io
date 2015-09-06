@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<h1>My awesome projects!!!!</h1>
+<p>It is working!!!!!</p>
+<p>Jippie!!!</p>
+
+<h2>Projects</h2>
+<ul>
+	{% for project in site.categories.projects limit:2 %}
+	<li>
+		<img src="{{site.baseurl}}/projects/img/{{project.img}}" alt="">
+		<a href="{{site.baseurl}}{{project.url}}">{{ project.title }}</a>
+		<p>{{ project.meta }}</p>
+	</li>
+	{% endfor %}
+</ul>
+<a href="{{site.baseurl}}/projects/archive.html">Archive</a>
