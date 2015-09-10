@@ -1,10 +1,22 @@
 header {
 	font-family: $base-font-stack;
 	border: $frame-thicknesss solid $black-color;
+
+	width: 100%;
+	min-height: 100vh;
+
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;
+
+
 	h1 {
+		color: $black-color;
 		font-family: $brand-font-stack;
 		font-weight: $bold;
 		font-style: italic;
 		font-size: 25vh;
 	}
+
+
 }

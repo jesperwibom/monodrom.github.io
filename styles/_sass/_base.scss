@@ -18,6 +18,10 @@ img {
   border: $frame-thicknesss solid $black-color;
 }
 
+a {
+  text-decoration: none;
+}
+
 section, article {
   a {
     padding: 0px 1px;

@@ -2,7 +2,19 @@
 layout: default
 ---
 
-<header class="splash-div">
+<header class="splash-header"
+	style="
+		background: linear-gradient(13deg,
+			rgba(39, 40, 218, 0.45),
+			rgba(239, 140, 218, 0.45),
+			rgba(50, 240, 200, 0.45)),
+			url({{ site.baseurl }}/img/niagara3.jpg);
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+		background-size:cover;
+	">
+
 	{% include nav.html navclass="header-nav" %}
 	<h1>Jeppe</h1>
 	<span>aka Jesper Andersson</span>
@@ -21,6 +33,7 @@ layout: default
 	<a href="#presentation">
 		<span class="entypo-down-open icon arrow"></span>
 	</a>
+
 </header>
 
 <section id="presentation">
