@@ -1,5 +1,9 @@
 body {
   background: $background-color;
+  font-family: $base-font-stack;
+  p {
+    font-size: $base-font-size;
+  }
 }
 
 ul {
@@ -12,4 +16,17 @@ li {
 
 img {
   border: $frame-thicknesss solid $black-color;
+}
+
+section, article {
+  a {
+    padding: 0px 1px;
+    color: $black-color;
+    text-decoration: none;
+    border-bottom: 3px solid lighten($brand-color, 15%);
+    &:hover {
+      background-color: lighten($brand-color, 15%);
+      border-color:  $brand-color;
+    }
+  }
 }

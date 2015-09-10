@@ -1,4 +1,12 @@
 nav {
+	font-family: $brand-font-stack;
+	a {
+		color: $black-color;
+		text-decoration: none;
+		&:hover {
+			color: $brand-color;
+		}
+	}
 	ul {
 		margin: 0;
 		padding: 0;
@@ -28,4 +36,18 @@ nav {
 	@include tag($black-color);
 	display: inline;
 	list-style: none;
+}
+
+.header-nav {
+	font-weight: $bold;
+	font-style: italic;
+	font-size: 28px;
+	.logo-text {
+		font-size: 36px;
+	}
+}
+
+.footer-nav {
+	font-weight: $bold;
+	font-style: italic;
 }

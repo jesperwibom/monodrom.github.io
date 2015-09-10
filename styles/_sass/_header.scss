@@ -1,3 +1,10 @@
 header {
+	font-family: $base-font-stack;
 	border: $frame-thicknesss solid $black-color;
+	h1 {
+		font-family: $brand-font-stack;
+		font-weight: $bold;
+		font-style: italic;
+		font-size: 25vh;
+	}
 }
