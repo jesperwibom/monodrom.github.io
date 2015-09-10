@@ -1,0 +1,30 @@
+---
+site: Jeppe.design
+author: Jesper Andersson
+license: Apache v2
+copyright: 2015
+---
+
+Jekyll - Static site generator (http://jekyllrb.com/)
+
+Normalize - Nicolas Gallagher (http://necolas.github.com/normalize.css/)
+served from CDNJS (http://cdnjs.com/libraries/normalize)
+
+Bourbon - Sass mixin library ()
+imported as bower dependency
+
+jQuery - DOM manipulation framework (http://code.jquery.com/)
+served from Google's CDN (https://developers.google.com/speed/libraries/)
+
+Entypo - Social icons font (http://www.entypo.com/)
+served from We Love Icon Fonts (http://weloveiconfonts.com/)
+
+Arvo - font by
+
+Cabin - font by
+
+Formspree - Email form forwarding service (http://formspree.io/)
+
+Font stacks found at: http://www.sitepoint.com/eight-definitive-font-stacks/
+
+hosted on github

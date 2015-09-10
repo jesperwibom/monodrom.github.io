@@ -1,0 +1,56 @@
+---
+---
+@charset "utf-8";
+
+@import url(http://fonts.googleapis.com/css?family=Cabin:400,400italic,700);
+@import url(http://fonts.googleapis.com/css?family=Arvo:700,700italic,400italic);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+[class*="entypo-"]:before {
+		font-family: 'entypo', sans-serif;
+}
+
+
+// Colors
+$white-color: #F2F2E0;
+$grey-color: #72726C;
+$black-color: #21211F;
+
+$brand-color: #E74287;
+$blog-color: #419EA9;
+$background-color: #EEEEEE;
+
+// Font stacks
+$brand-font-stack: "Arvo", Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+$base-font-stack: "Cabin" Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+$fixed-font-stack: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+
+// Font weights
+$regular: 400;
+$bold: 700;
+
+// Headings
+$header-font-weight: $bold;
+
+// Base Font
+$base-font-weight: $regular;
+$base-font-size: 14px;
+$base-line-height: 1.4;
+
+// Fixed Font
+$fixed-font-size: 85%;
+$fixed-line-height: $base-line-height;
+
+
+@import
+	"bourbon/app/assets/stylesheets/bourbon",
+	"mixins", //custom mixins for this project
+	"base", //resets some values, sets standard values for some
+	"header",
+	"nav", //all navigation elements are styled here
+	"content",
+	"footer",
+	"social",
+	"themes",
+	"queries"
+	;

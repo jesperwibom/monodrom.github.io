@@ -1,0 +1,31 @@
+nav {
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+	li {
+		display: inline;
+		list-style: none;
+	}
+}
+
+.btn {
+	font-family: $brand-font-stack;
+	font-size: 24px;
+	font-weight: $regular;
+	@include btn($black-color, $grey-color, $white-color);
+}
+
+.tag-list {
+	margin: 0;
+	padding: 0;
+}
+
+.tag {
+	font-family: $base-font-stack;
+	font-size: $base-font-size;
+	font-weight: $regular;
+	@include tag($black-color);
+	display: inline;
+	list-style: none;
+}

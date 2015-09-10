@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<h1>/archive</h1>
+<nav class="sub-nav">
+	<ul>
+		<li><a href="{{site.baseurl}}/archive/" class="btn all-btn {% if page.url == "/archive/" %}current{% endif %}">all entries</a></li>
+		<li><a href="{{site.baseurl}}/archive/projects" class="btn projects-btn {% if page.url == "/archive/projects/" %}current{% endif %}">projects</a></li>
+		<li><a href="{{site.baseurl}}/archive/posts" class="btn posts-btn {% if page.url == "/archive/posts/" %}current{% endif %}">blog posts</a></li>
+	</ul>
+</nav>
+
+{{content}}

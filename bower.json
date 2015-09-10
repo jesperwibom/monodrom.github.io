@@ -1,0 +1,13 @@
+{
+  "name": "jeppe.design",
+  "version": "0.0.1",
+  "authors": [
+    "Jesper Andersson <jsprA86@gmail.com>"
+  ],
+  "description": "Dependecy package for Jesper Andersson portfolio site.",
+  "license": "Apache ver.2",
+  "homepage": "https://github.com/monodrom/monodrom.github.io",
+  "dependencies": {
+    "bourbon": "~4.2.4"
+  }
+}

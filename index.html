@@ -2,5 +2,79 @@
 layout: default
 ---
 
-<h1>Super duper enkelt test</h1>
-<p>Följer med i en youtube film</p>
+<h1>Jeppe</h1>
+<span>aka Jesper Andersson</span>
+<br>
+<span>is a IxD/Ux designer from Malmö, Sweden</span>
+<br>
+<span>Loves to do prototyping, development, flow charts and wireframes. Design from a user-centric perspective.</span>
+<nav>
+	<ul>
+		<li><a href="{{site.baseurl}}/projects/" class="btn projects-btn">See /projects <span class="entypo-right-open icon arrow"></span></a></li>
+		<li><a href="{{site.baseurl}}/blog/" class="btn posts-btn">Read my /blog <span class="entypo-right-open icon arrow"></span></a></li>
+	</ul>
+</nav>
+<span>or scroll down</span>
+<br>
+<a href="#presentation">
+	<span class="entypo-down-open icon arrow"></span>
+</a>
+
+<section id="presentation">
+	<h2>Hey!</h2>
+	<img class="presentation-avatar" src="{{ site.baseurl }}/img/me2.png" alt="Picture of me">
+	<p class="presentation-text">My name is Jesper Andersson and this here is my portfolio! Read more stuff written by me on <a href="http://www.teknodrom.cc">Teknodrom</a> or <a href="https://ioio.mah.se">ioio</a>.</p>
+</section>
+
+<section id="skills">
+	<h2>Skills</h2>
+	<p>Methods and workflows and skills oh my..</p>
+	<ul>Development
+		<li class="stars-3">Java</li>
+		<li class="stars-3">JavaScript</li>
+		<li class="stars-3">Processing</li>
+		<li class="stars-2">Android</li>
+	</ul>
+	<ul>Prototyping
+		<li>Arduino</li>
+		<li>Wireframing</li>
+		<li>Mockups</li>
+	</ul>
+	<ul>Applications
+		<li>Photoshop</li>
+		<li>Eclipse</li>
+		<li>Android Studio</li>
+		<li>InDesign</li>
+		<li>Excel</li>
+		<li>Axure</li>
+	</ul>
+</section>
+
+<section id="contact">
+	<div>
+		<h2>Contact</h2>
+		<p>LinkedIn</p>
+		<p>GitHub</p>
+		<p>Mail</p>
+		<p>I am also on twitter, dribble, youtube</p>
+
+		<span>or use contact form</span>
+		<br>
+		<span class="entypo-left-open icon arrow"></span>
+		<a href="#contact-form">
+			<span class="entypo-down-open icon arrow"></span>
+		</a>
+	</div>
+	<div id="contact-form">
+		<form action="//formspree.io/jsprA86@gmail.com"
+	      method="POST">
+	    <input type="text" name="name" placeholder="Name">
+	    <input type="email" name="_replyto" placeholder="Email">
+			<input type="text" name="message" placeholder="Message">
+			<input type="text" name="_gotcha" style="display:none" />
+	    <input type="submit" value="Send">
+			<input type="hidden" name="_next" value="{{ site.baseurl }}/thanks/" />
+			<input type="hidden" name="_subject" value="Contact || Jeppe.design" />
+		</form>
+	</div>
+</section>

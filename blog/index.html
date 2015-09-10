@@ -2,15 +2,15 @@
 layout: default
 ---
 
-<h1>This is BLOG!!!</h1>
-<p>Hello blog.</p>
+<h1>/blog</h1>
 
-<h2>Blog posts</h2>
 <ul>
-	{% for blogpost in site.categories.blog %}
+	{% for post in site.categories.blog %}
 	<li>
-		<a href="{{site.baseurl}}{{blogpost.url}}">{{ blogpost.title }}</a>
-		<p>{{ blogpost.meta }}</p>
+		<a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
+		<p>{% if post.excerpt %}{{ post.excerpt | strip_html | strip_newlines | truncate: 40 }}{% endif %}</p>
 	</li>
 	{% endfor %}
 </ul>
+
+<a href="{{site.baseurl}}/archive/posts/">Archive</a>

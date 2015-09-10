@@ -2,18 +2,17 @@
 layout: default
 ---
 
-<h1>My awesome projects!!!!</h1>
-<p>It is working!!!!!</p>
-<p>Jippie!!!</p>
+<h1>/projects</h1>
 
-<h2>Projects</h2>
 <ul>
 	{% for project in site.categories.projects limit:2 %}
 	<li>
-		<img src="{{site.baseurl}}/projects/img/{{project.img}}" alt="">
-		<a href="{{site.baseurl}}{{project.url}}">{{ project.title }}</a>
-		<p>{{ project.meta }}</p>
+		<a href="{{site.baseurl}}{{project.url}}">
+			{{ project.title }}
+			<p>{% if project.excerpt %}{{ project.excerpt | strip_html | strip_newlines | truncate: 200 }}{% endif %}<em> go to case studie </em><span class="entypo-right-open icon arrow"></span></p>
+		</a>
 	</li>
 	{% endfor %}
 </ul>
-<a href="{{site.baseurl}}/projects/archive.html">Archive</a>
+
+<a href="{{site.baseurl}}/archive/projects/">Archive</a>

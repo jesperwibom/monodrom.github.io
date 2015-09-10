@@ -46,4 +46,7 @@ maps/
 # Additions #
 ######################
 _site
+_drafts
 drafts
+_resources
+.ruby-version
