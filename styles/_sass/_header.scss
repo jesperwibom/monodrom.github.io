@@ -2,21 +2,67 @@ header {
 	font-family: $base-font-stack;
 	border: $frame-thicknesss solid $black-color;
 
-	width: 100%;
-	min-height: 100vh;
-
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-
 
 	h1 {
 		color: $black-color;
 		font-family: $brand-font-stack;
 		font-weight: $bold;
 		font-style: italic;
-		font-size: 25vh;
+		font-size: 23vh;
+		overflow: hidden;
+		margin-top: 0.15em;
+		margin-bottom: 0.15em;
 	}
 
+	.header-text {
+		max-width: 1000px;
+		.me-name, .me-am, p {
+			color: $white-color;
+			background-color: $black-color;
+			display: inline-block;
+			padding-left: 22px;
+			padding-right: 4px;
+			padding-bottom: 4px;
+		}
+		.down-arrow {
+			color: $white-color;
+			background-color: $black-color;
+			display: inline-block;
+			padding-left: 22px;
+			padding-right: 22px;
+		}
+	}
+
+	.me-name {
+		color: $black-color;
+		font-family: $brand-font-stack;
+		font-size: 36pt;
+	}
+
+	.me-am {
+		color: $black-color;
+		font-family: $brand-font-stack;
+		font-size: 30pt;
+		font-style: italic;
+	}
+
+	.down-arrow {
+		font-size: 50pt;
+
+	}
+
+	p {
+		color: $black-color;
+		font-family: $base-font-stack;
+		font-size: 26pt;
+		font-weight: $regular;
+	}
+
+	.header-nav {
+		text-shadow: 0px 0px 45px #CDD5C4;
+	}
 
 }

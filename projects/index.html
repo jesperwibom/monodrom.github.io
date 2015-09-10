@@ -4,15 +4,19 @@ title: /projects
 ---
 
 {% include header.html %}
-<ul>
-	{% for project in site.categories.projects limit:2 %}
-	<li>
-		<a href="{{site.baseurl}}{{project.url}}">
-			{{ project.title }}
-			<p>{% if project.excerpt %}{{ project.excerpt | strip_html | strip_newlines | truncate: 200 }}{% endif %}<em> go to case studie </em><span class="entypo-right-open icon arrow"></span></p>
-		</a>
-	</li>
-	{% endfor %}
-</ul>
+<section class="content-wrap">
+	<section>
+		<ul>
+			{% for project in site.categories.projects limit:2 %}
+			<li>
+				<a href="{{site.baseurl}}{{project.url}}">
+					{{ project.title }}
+					<p>{% if project.excerpt %}{{ project.excerpt | strip_html | strip_newlines | truncate: 200 }}{% endif %}<em> go to case studie </em><span class="entypo-right-open icon arrow"></span></p>
+				</a>
+			</li>
+			{% endfor %}
+		</ul>
 
-<a href="{{site.baseurl}}/archive/projects/" class="btn">Archive</a>
+		<a href="{{site.baseurl}}/archive/projects/" class="btn" id="archive-btn">Archive</a>
+	</section>
+</section>

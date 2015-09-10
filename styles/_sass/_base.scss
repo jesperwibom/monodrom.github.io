@@ -14,23 +14,49 @@ li {
 	list-style: circle;
 }
 
+strong {
+  font-weight: $bold;
+}
+
 img {
   border: $frame-thicknesss solid $black-color;
 }
 
 a {
+  color: $black-color;
   text-decoration: none;
+  &:hover {
+    color: $brand-color;
+  }
 }
 
-section, article {
-  a {
+.content-wrap {
+  .link {
     padding: 0px 1px;
     color: $black-color;
     text-decoration: none;
     border-bottom: 3px solid lighten($brand-color, 15%);
     &:hover {
+      color: $black-color;
       background-color: lighten($brand-color, 15%);
       border-color:  $brand-color;
     }
   }
+
+  .article-wrap {
+    a {
+      padding: 0px 1px;
+      color: $black-color;
+      text-decoration: none;
+      border-bottom: 3px solid lighten($brand-color, 15%);
+      &:hover {
+        color: $black-color;
+        background-color: lighten($brand-color, 15%);
+        border-color:  $brand-color;
+      }
+    }
+
+  }
+
+
 }

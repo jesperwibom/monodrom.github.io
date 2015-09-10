@@ -1,8 +1,27 @@
 
 {% if page.images.splash %}
-<header class="splash-header">
+<header class="splash-header"
+	style="
+		background: linear-gradient(13deg,
+			rgba(39, 40, 218, 0.45),
+			rgba(239, 140, 218, 0.45),
+			rgba(50, 240, 200, 0.45)),
+			url({{ site.baseurl }}{{ page.images.splash }});
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+		background-size:cover;
+		width: 100%;
+		min-height: 100vh;
+">
 {% else %}
-<header class="half-header">
+<header class="half-header"
+	style="
+		background: linear-gradient(13deg,
+			rgba(39, 40, 218, 0.45),
+			rgba(239, 140, 218, 0.45),
+			rgba(50, 240, 200, 0.45));
+">
 {% endif %}
 	{% include nav.html navclass="header-nav"%}
 	<h1 class="title">{{page.title}}</h1>

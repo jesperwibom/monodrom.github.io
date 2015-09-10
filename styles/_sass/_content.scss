@@ -1,0 +1,30 @@
+.content-wrap {
+
+	max-width: 1400px;
+
+
+	.presentation-avatar {
+		float: right;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 250px;
+		height: 250px;
+	}
+
+	section {
+		background-color: white;
+		margin: 16px;
+	}
+
+	h2 {
+		color: $black-color;
+		font-family: $brand-font-stack;
+		font-style: italic;
+		font-size: 20pt;
+		display: inline;
+		padding-left: 30px;
+		border-bottom: 3px solid $black-color;
+	}
+
+}

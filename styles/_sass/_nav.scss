@@ -1,12 +1,6 @@
 nav {
 	font-family: $brand-font-stack;
-	a {
-		color: $black-color;
-		text-decoration: none;
-		&:hover {
-			color: $brand-color;
-		}
-	}
+
 	ul {
 		margin: 0;
 		padding: 0;
@@ -21,7 +15,7 @@ nav {
 	font-family: $brand-font-stack;
 	font-size: 24px;
 	font-weight: $regular;
-	@include btn($black-color, $grey-color, $white-color);
+	@include btn($black-color, $brand-color, $brand-color);
 }
 
 .tag-list {
@@ -41,9 +35,9 @@ nav {
 .header-nav {
 	font-weight: $bold;
 	font-style: italic;
-	font-size: 28px;
+	font-size: 34px;
 	.logo-text {
-		font-size: 36px;
+		font-size: 40px;
 	}
 }
 
