@@ -41,6 +41,8 @@ $base-line-height: 1.4;
 $fixed-font-size: 85%;
 $fixed-line-height: $base-line-height;
 
+// Other measurments
+$frame-thicknesss: 8px;
 
 @import
 	"bourbon/app/assets/stylesheets/bourbon",
@@ -51,6 +53,7 @@ $fixed-line-height: $base-line-height;
 	"content",
 	"footer",
 	"social",
+	"form",
 	"themes",
 	"queries"
 	;

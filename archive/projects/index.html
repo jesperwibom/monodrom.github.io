@@ -5,10 +5,10 @@ layout: archive
 <ul>
 	{% for project in site.categories.projects %}
 	<li>
-		<a href="{{site.baseurl}}{{index.url}}">
+		<a href="{{site.baseurl}}{{project.url}}">
 			<h3>{{ project.title }}</h3>
 			{% if project.subtitle %}<h4>{{project.subtitle}}</h4>{% endif %}
-			<p>{% if project.excerpt %}{{ project.excerpt | strip_html | strip_newlines | truncate: 40 }}{% endif %}</p>
+			<p>{% if project.excerpt %}{{ project.excerpt | strip_html | strip_newlines | truncate: 100 }}{% endif %}</p>
 		</a>
 	</li>
 	{% endfor %}

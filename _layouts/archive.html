@@ -2,6 +2,7 @@
 layout: default
 ---
 
+{% include header.html %}
 <h1>/archive</h1>
 <nav class="sub-nav">
 	<ul>
@@ -10,5 +11,4 @@ layout: default
 		<li><a href="{{site.baseurl}}/archive/posts" class="btn posts-btn {% if page.url == "/archive/posts/" %}current{% endif %}">blog posts</a></li>
 	</ul>
 </nav>
-
 {{content}}

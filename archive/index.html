@@ -8,7 +8,7 @@ layout: archive
 		<a href="{{site.baseurl}}{{index.url}}">
 			<h3>{{ index.title }}</h3>
 			{% if index.subtitle %}<h4>{{index.subtitle}}</h4>{% endif %}
-			<p>{% if index.excerpt %}{{ index.excerpt | strip_html | strip_newlines | truncate: 40 }}{% endif %}</p>
+			<p>{% if index.excerpt %}{{ index.excerpt | strip_html | strip_newlines | truncate: 100 }}{% endif %}</p>
 		</a>
 	</li>
 	{% endfor %}

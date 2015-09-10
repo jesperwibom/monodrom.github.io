@@ -1,3 +1,11 @@
-<header>
+
+{% if page.images.splash %}
+<header class="splash-div">
+{% else %}
+<header class="half-div">
+{% endif %}
 	{% include nav.html navclass="header-nav"%}
+	<h1 class="title">{{page.title}}</h1>
+	{% if page.subtitle %}<span class="subtitle">{{ page.subtitle }}</span>{% endif %}
+	{% include tagloop.html %}
 </header>

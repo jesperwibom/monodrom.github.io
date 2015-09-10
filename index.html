@@ -2,28 +2,33 @@
 layout: default
 ---
 
-<h1>Jeppe</h1>
-<span>aka Jesper Andersson</span>
-<br>
-<span>is a IxD/Ux designer from Malmö, Sweden</span>
-<br>
-<span>Loves to do prototyping, development, flow charts and wireframes. Design from a user-centric perspective.</span>
-<nav>
-	<ul>
-		<li><a href="{{site.baseurl}}/projects/" class="btn projects-btn">See /projects <span class="entypo-right-open icon arrow"></span></a></li>
-		<li><a href="{{site.baseurl}}/blog/" class="btn posts-btn">Read my /blog <span class="entypo-right-open icon arrow"></span></a></li>
-	</ul>
-</nav>
-<span>or scroll down</span>
-<br>
-<a href="#presentation">
-	<span class="entypo-down-open icon arrow"></span>
-</a>
+<header class="splash-div">
+	{% include nav.html %}
+	<h1>Jeppe</h1>
+	<span>aka Jesper Andersson</span>
+	<br>
+	<span>is a IxD/Ux designer from Malmö, Sweden</span>
+	<br>
+	<span>Loves to do prototyping, development, flow charts and wireframes. Design from a user-centric perspective.</span>
+	<nav>
+		<ul>
+			<li><a href="{{site.baseurl}}/projects/" class="btn projects-btn">See /projects <span class="entypo-right-open icon arrow"></span></a></li>
+			<li><a href="{{site.baseurl}}/blog/" class="btn posts-btn">Read my /blog <span class="entypo-right-open icon arrow"></span></a></li>
+		</ul>
+	</nav>
+	<span>or scroll down</span>
+	<br>
+	<a href="#presentation">
+		<span class="entypo-down-open icon arrow"></span>
+	</a>
+</header>
 
 <section id="presentation">
-	<h2>Hey!</h2>
+	<h2>Hey you!</h2>
 	<img class="presentation-avatar" src="{{ site.baseurl }}/img/me2.png" alt="Picture of me">
-	<p class="presentation-text">My name is Jesper Andersson and this here is my portfolio! Read more stuff written by me on <a href="http://www.teknodrom.cc">Teknodrom</a> or <a href="https://ioio.mah.se">ioio</a>.</p>
+	<p class="presentation-text">My name is <em>Jesper Andersson</em> and I am a <em>interaction</em> and <em>user experience designer</em>. This here web site is my portfolio!</p>
+	<p>I spend alot of my time thinking about problems. Whatever the problem, I'm here to help! Tell <em>me</em> about complex interfaces, vauge feedback or difficult user flows and I will tell <em>you</em> about how to overcome these issues, create fresh interactions and joyfull user experiences!</p>
+	<p>You can see some of my recent <a href="{{site.baseurl}}/projects/">/projects</a> and if I feel like it I will update my <a href="{{site.baseurl}}/blog/">/blog</a>. You can find other stuff written by me on <a href="http://www.teknodrom.cc">Teknodrom</a> or <a href="https://ioio.mah.se">ioio</a>.</p>
 </section>
 
 <section id="skills">

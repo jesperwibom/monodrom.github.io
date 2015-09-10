@@ -1,9 +1,9 @@
 ---
 layout: default
+title: /projects
 ---
 
-<h1>/projects</h1>
-
+{% include header.html %}
 <ul>
 	{% for project in site.categories.projects limit:2 %}
 	<li>
@@ -15,4 +15,4 @@ layout: default
 	{% endfor %}
 </ul>
 
-<a href="{{site.baseurl}}/archive/projects/">Archive</a>
+<a href="{{site.baseurl}}/archive/projects/" class="btn">Archive</a>
