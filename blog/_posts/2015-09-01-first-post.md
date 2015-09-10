@@ -13,3 +13,5 @@ But this is none of your buisness!!!!!!!
 
 Sincerely,
 Jesper
+
+This is a unfinished site. This is fake content...
