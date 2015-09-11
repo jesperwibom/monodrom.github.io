@@ -18,8 +18,8 @@
 		border-color: $colorCur;
 		background-color: none;
 		&:hover {
-			color: $colorDef;
-			border-color: $colorDef;
+			color: $colorCur;
+			border-color: $colorCur;
 			background-color: none;
 		}
 	}

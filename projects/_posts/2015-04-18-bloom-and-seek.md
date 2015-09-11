@@ -5,8 +5,8 @@ category: projects
 title:  "Bloom And Seek"
 subtitle: "A complex location based treasure-hunt game for Android"
 date:
-  started: 2014-03-02
-  completed: 2014-04-10
+  started: 2015-04-18
+  completed: 2014-06-10
 
 images:
   gallery: niagara1.jpg

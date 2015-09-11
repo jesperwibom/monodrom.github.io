@@ -5,8 +5,8 @@ category: projects
 title:  "LikeLight"
 subtitle: "Creating a real world 'like'"
 date:
-  started: 2014-09-02
-  completed: 2014-010-10
+  started: 2015-02-04
+  completed: 2015-02-20
 
 images:
   gallery:
@@ -14,13 +14,10 @@ images:
 
 tags:
 - arduino
-- android
+- processing
 - java
-- firebase
-- python
 - prototyping
 - development
-- project-management
 ---
 
 A martian flying spacecraft was spotted over Malmö.
