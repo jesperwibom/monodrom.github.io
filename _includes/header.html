@@ -6,13 +6,14 @@
 			rgba(39, 40, 218, 0.45),
 			rgba(239, 140, 218, 0.45),
 			rgba(50, 240, 200, 0.45)),
-			url({{ site.baseurl }}{{ page.images.splash }});
+			url({{ site.baseurl }}/{{page.category}}/{{ page.images.splash }});
 		-webkit-background-size:cover;
 		-moz-background-size:cover;
 		-o-background-size:cover;
 		background-size:cover;
 		width: 100%;
 		min-height: 100vh;
+		overflow: hidden;
 ">
 {% else %}
 <header class="half-header"
@@ -21,11 +22,14 @@
 			rgba(39, 40, 218, 0.45),
 			rgba(239, 140, 218, 0.45),
 			rgba(50, 240, 200, 0.45));
+			overflow: hidden;
 ">
 {% endif %}
 	{% include nav.html navclass="header-nav"%}
 	<h1 class="title">{{page.title}}</h1>
-	{% if page.subtitle %}<span class="subtitle">{{ page.subtitle }}</span>{% endif %}
-	{% include tagloop.html %}
+		<div class="header-text">
+			{% if page.subtitle %}<span class="subtitle text">{{ page.subtitle }}</span>{% endif %}
+			{% include tagloop.html %}
+		</div>
 
 </header>

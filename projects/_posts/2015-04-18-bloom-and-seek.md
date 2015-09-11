@@ -9,8 +9,8 @@ date:
   completed: 2014-06-10
 
 images:
-  gallery: niagara1.jpg
-  splash: niagara2.jpg
+  gallery: img/niagara1.jpg
+  splash: img/niagara1.jpg
 
 tags:
 - arduino

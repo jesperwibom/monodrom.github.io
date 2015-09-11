@@ -12,13 +12,33 @@ header {
 		font-weight: $bold;
 		font-style: italic;
 		font-size: 23vh;
-		overflow: hidden;
 		margin-top: 0.05em;
 		margin-bottom: 0.15em;
 		padding-left: 24px;
+		line-height: 100%;
 	}
 
 	.header-text {
+		.text {
+			color: $white-color;
+			background-color: $black-color;
+			display: inline-block;
+			padding-left: 22px;
+			padding-right: 4px;
+			padding-bottom: 4px;
+			max-width: 1000px;
+		}
+		.tag {
+			color: $black-color;
+			background-color: $white-color;
+			border-color: $black-color;
+			font-family: $brand-font-stack;
+			font-size: 12pt;
+		}
+		.subtitle {
+			font-size: 14pt;
+		}
+
 		.me-name, .me-am, p {
 			color: $white-color;
 			background-color: $black-color;
@@ -43,6 +63,7 @@ header {
 	.me-name {
 		font-family: $brand-font-stack;
 		font-size: 20pt;
+		margin-top: 3vh;
 	}
 
 	.me-am {
@@ -62,7 +83,7 @@ header {
 		font-size: 14pt;
 		font-weight: $regular;
 		margin-top: 14px;
-		margin-bottom: 20px;
+		margin-bottom: 5vh;
 	}
 
 	.header-nav {
