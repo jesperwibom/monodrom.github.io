@@ -10,8 +10,9 @@ title: /projects
 			{% for project in site.categories.projects limit:2 %}
 			<li>
 				<a href="{{site.baseurl}}{{project.url}}">
-					{{ project.title }}
-					<p>{% if project.excerpt %}{{ project.excerpt | strip_html | strip_newlines | truncate: 200 }}{% endif %}<em> go to case studie </em><span class="entypo-right-open icon arrow"></span></p>
+					<span class="project-title">{{ project.title }}</span>
+					{% if project.subtitle %}<span class="project-subtitle">{{project.subtitle}}</span>{% endif %}<br>
+					{% if project.excerpt %}<span class="project-excerpt">{{ project.excerpt | strip_html | strip_newlines }}{% endif %}<em> go to case studie </em><span class="entypo-right-open icon arrow"></span></span>
 				</a>
 			</li>
 			{% endfor %}

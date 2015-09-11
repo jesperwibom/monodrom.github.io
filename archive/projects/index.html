@@ -9,7 +9,7 @@ title: /archive
 		<a href="{{site.baseurl}}{{project.url}}">
 			<span class="archive-title">{{ project.title }}</span>
 			{% if project.subtitle %}<span class="archive-subtitle">{{project.subtitle}}</span>{% endif %}<br>
-			{% if project.excerpt %}<span class="archive-excerpt">{{ project.excerpt | strip_html | strip_newlines | truncate: 100 }}</span>{% endif %}
+			{% if project.excerpt %}<span class="archive-excerpt">{{ project.excerpt | strip_html | strip_newlines }}</span>{% endif %}
 		</a>
 	</li>
 	{% endfor %}

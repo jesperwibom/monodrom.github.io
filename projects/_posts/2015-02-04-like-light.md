@@ -2,7 +2,7 @@
 layout: project
 category: projects
 
-title:  "LikeLight"
+title:  "Like Light"
 subtitle: "Creating a real world 'like'"
 date:
   started: 2015-02-04
@@ -20,6 +20,5 @@ tags:
 - development
 ---
 
-A martian flying spacecraft was spotted over Malmö.
-
-Local farmers are in the process of counting all cows to assess the damage.
+Like Light is a concept where a burning candle 'likes' a page on Facebook. As long as the candle burns the 'like' is active. But if you blow out the flame or if the candle burns down, the 'like' disappears.
+<!--more-->

@@ -1,16 +1,16 @@
-.archive-title {
+.project-title, .post-title, .archive-title {
 	font-family: $brand-font-stack;
 	font-weight: $bold;
 	font-size: 14pt;
 }
 
-.archive-subtitle {
+.project-subtitle, .post-subtitle, .archive-subtitle {
 	font-family: $brand-font-stack;
 	font-weight: $regular;
 	font-style: italic;
 	font-size: 14pt;
 }
 
-.archive-excerpt {
+.project-excerpt, .post-excerpt, .archive-excerpt {
 	font-family: $base-font-stack;
 }
