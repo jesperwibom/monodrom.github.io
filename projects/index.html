@@ -6,8 +6,20 @@ title: /projects
 {% include header.html %}
 <section class="content-wrap">
 	<section>
-		<ul>
-			{% for project in site.categories.projects limit:2 %}
+		<ul class="project-gallery">
+			{% for project in site.categories.projects limit:6 %}
+			<div class="project-wrap" style="
+				background: linear-gradient(13deg,
+					rgba(39, 40, 218, 0.45),
+					rgba(239, 140, 218, 0.45),
+					rgba(50, 240, 200, 0.45)),
+					url({{ site.baseurl }}/img/niagara1.jpg);
+				-webkit-background-size:cover;
+				-moz-background-size:cover;
+				-o-background-size:cover;
+				background-size:cover;
+				overflow: hidden;
+		">
 			<li>
 				<a href="{{site.baseurl}}{{project.url}}">
 					<span class="project-title">{{ project.title }}</span>
@@ -15,9 +27,10 @@ title: /projects
 					{% if project.excerpt %}<span class="project-excerpt">{{ project.excerpt | strip_html | strip_newlines }}{% endif %}<em> go to case studie </em><span class="entypo-right-open icon arrow"></span></span>
 				</a>
 			</li>
+			</div>
 			{% endfor %}
 		</ul>
-
+		<div class="clear"></div>
 		<a href="{{site.baseurl}}/archive/projects/" class="btn" id="archive-btn">Archive</a>
 	</section>
 </section>

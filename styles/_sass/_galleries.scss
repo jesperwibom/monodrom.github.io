@@ -14,3 +14,21 @@
 .project-excerpt, .post-excerpt, .archive-excerpt {
 	font-family: $base-font-stack;
 }
+
+.project-gallery {
+	li{
+		display: inline-block;
+	}
+}
+
+.project-wrap {
+	width: 250px;
+	height: 250px;
+	overflow: hidden;
+	float: left;
+	border: $frame-thicknesss solid $black-color;
+}
+
+.clear {
+	clear: both;
+}
