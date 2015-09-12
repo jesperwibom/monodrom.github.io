@@ -13,7 +13,9 @@ strong {
 }
 
 img {
-  border: $frame-thicknesss solid $black-color;
+  border: 3px solid $black-color;
+  padding: 5px;
+  margin: 10px;
 }
 
 a {
