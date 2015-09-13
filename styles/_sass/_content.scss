@@ -14,12 +14,18 @@
 		width: 250px;
 	}
 
-	section {
+	section, article {
 		padding-top: 24px;
 		padding-bottom: 24px;
 		margin-bottom: 24px;
 		background-color: white;
 		@include shadow(#AAB1AA);
+
+		img {
+			width: 98.5%;
+			margin: 0px;
+		}
+
 	}
 
 	h2 {
@@ -44,6 +50,7 @@
 	display: block;
 	width: 100%;
 	padding-top: 14px;
+
 }
 
 #contact-form {

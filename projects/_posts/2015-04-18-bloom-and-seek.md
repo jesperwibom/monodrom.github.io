@@ -9,8 +9,8 @@ date:
   completed: 2014-06-10
 
 images:
-  gallery: img/niagara1.jpg
-  splash: img/niagara1.jpg
+  gallery: img/bloom-and-seek-gallery.jpg
+  splash: img/bloom-and-seek-splash.jpg
 
 tags:
 - arduino
@@ -23,7 +23,7 @@ tags:
 - project-management
 ---
 
-This was a five week project encompassing several different technologies and design paradigms. 
+This was a five week project encompassing several different technologies and design paradigms.
 
 <!--more-->
 

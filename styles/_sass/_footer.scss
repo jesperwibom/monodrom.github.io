@@ -6,9 +6,9 @@ footer {
 	.bottom-wrap {
 		padding: 3px 8px;
 		background: linear-gradient(13deg,
-			rgba(39, 40, 218, 0.45),
+			rgba(94,67,218, 0.45),
 			rgba(239, 140, 218, 0.45),
-			rgba(50, 240, 200, 0.45)),
+			rgba(119,204,207, 0.45)),
 			url(../img/footer.jpg);
 		-webkit-background-size:cover;
 		-moz-background-size:cover;
@@ -26,8 +26,8 @@ footer {
 		font-size: 20px;
 		color: $white-color;
 		background-color: $black-color;
-		border-radius: 8px 8px 0px 0px;
 		text-align: center;
+		padding-top: 1px;
 	}
 
 	.footer-nav {
