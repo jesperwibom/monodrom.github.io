@@ -1,0 +1,51 @@
+footer {
+	width: 100%;
+	position: relative;
+	@include shadow(#AAB1AA);
+
+	.bottom-wrap {
+		padding: 3px 8px;
+		background: linear-gradient(13deg,
+			rgba(39, 40, 218, 0.45),
+			rgba(239, 140, 218, 0.45),
+			rgba(50, 240, 200, 0.45)),
+			url(../img/footer.jpg);
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+		background-size:cover;
+		border: 3px solid $black-color;
+	}
+
+	.name-text {
+		display: block;
+		width: 100%;
+		font-family: $brand-font-stack;
+		font-style: italic;
+		font-weight: $bold;
+		font-size: 20px;
+		color: $white-color;
+		background-color: $black-color;
+		border-radius: 8px 8px 0px 0px;
+		text-align: center;
+	}
+
+	.footer-nav {
+		float: left;
+
+	}
+
+	.contact {
+		position: absolute;
+		bottom: 8px;
+		right: 10px;
+		font-size: 18pt;
+	}
+
+	.copyright {
+		display: block;
+		font-family: $base-font-stack;
+		font-size: 10pt;
+		font-style: italic;
+	}
+}

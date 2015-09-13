@@ -49,34 +49,30 @@ layout: default
 	<section id="presentation">
 		<h2>Hey you!</h2>
 		<img class="presentation-avatar" src="{{ site.baseurl }}/img/presentation-avatar.jpg" alt="Picture of me">
-		<p class="presentation-text">My name is <em>Jesper Andersson</em> and I am a <em>interaction</em> and <em>user experience designer</em>. This here web site is my portfolio!</p>
+		<p class="presentation-text">My name is <em>Jesper Andersson</em> and I am a <em>interaction</em> and <em>user experience designer</em>. Thanks for looking at my portfolio!</p>
 		<p>I spend alot of my time thinking about problems. Whatever the problem, I'm here to help! Tell <em>me</em> about complex interfaces, vauge feedback or difficult user flows and I will tell <em>you</em> about how to overcome these issues, create fresh interactions and joyfull user experiences!</p>
-		<p>You can see some of my recent <a href="{{site.baseurl}}/projects/" class="link">/projects</a> and if I feel like it I will update my <a href="{{site.baseurl}}/blog/" class="link">/blog</a>. You can find other stuff written by me on <a href="http://www.teknodrom.cc" class="link">Teknodrom</a> or <a href="https://ioio.mah.se" class="link">ioio</a>.</p>
+		<p>You can see some of my recent <a href="{{site.baseurl}}/projects/" class="link">/projects</a> and if I feel like it I will update my <a href="{{site.baseurl}}/blog/" class="link">/blog</a>. You can find other stuff written by me on <a href="http://www.teknodrom.cc" class="link">Teknodrom</a> and <a href="https://ioio.mah.se" class="link">ioio</a>.</p>
 	</section>
 
 	<section id="contact">
 		<div>
 			<h2>Contact</h2>
-			<p>LinkedIn</p>
-			<p>GitHub</p>
-			<p>Mail</p>
-			<p>I am also on twitter, dribble, youtube</p>
+			<p>If you have any inqueries, questions or just wanna say "Hi!" please don't hesitate to contact me! I'd love to hear from you!</p>
+			<p>You can send me a <a href="mailto:jsprA86@gmail.com?Subject=Hello%20Jeppe!" class="mail link">mail</a> or <a href="tel: +46738398053" class="phone link">call me</a> directly. Also check my <a href="https://www.linkedin.com/in/jspr86" class="linkedin link">LinkedIn</a> account for a complete work experience list and my <a href="https://github.com/monodrom" class="github link">GitHub</a> account to review my development projects.</p>
+			<p class="note">I am also on <a href="https://twitter.com/_monodrom" class="twitter link">Twitter</a> and <a href="https://www.youtube.com/user/JsprA86/videos" class="youtube link">YouTube</a> but these accounts are updated less frequently.</p>
 
-			<span>or use contact form</span>
-			<br>
-			<span class="entypo-left-open icon arrow"></span>
-			<a href="#contact-form">
-				<span class="entypo-down-open icon arrow"></span>
-			</a>
+			<span class="use-form">or use contact form</span>
+
 		</div>
 		<div id="contact-form">
 			<form action="//formspree.io/jsprA86@gmail.com"
 		      method="POST">
 		    <input type="text" name="name" placeholder="Name">
 		    <input type="email" name="_replyto" placeholder="Email">
-				<input type="text" name="message" placeholder="Message">
+				<textarea type="text" name="message" placeholder="Message" class="message"></textarea>
 				<input type="text" name="_gotcha" style="display:none" />
-		    <input type="submit" value="Send">
+				<br>
+		    <input type="submit" value="Send" class="button">
 				<input type="hidden" name="_next" value="{{ site.baseurl }}/thanks/" />
 				<input type="hidden" name="_subject" value="Contact || Jeppe.design" />
 			</form>

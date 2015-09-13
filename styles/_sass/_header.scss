@@ -6,6 +6,8 @@ header {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 
+	@include shadow(#AAB1AA);
+
 	h1 {
 		color: $black-color;
 		font-family: $brand-font-stack;
@@ -97,8 +99,9 @@ header {
 	.btn {
 		font-size: 26pt;
 		display: inline-block;
-		min-width: 330px;
-		margin-bottom: 10px;
+		min-width: 316px;
+		margin: 4px 10px;
+
 	}
 
 

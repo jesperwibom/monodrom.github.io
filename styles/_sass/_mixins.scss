@@ -32,3 +32,11 @@
 	text-decoration: none;
 	padding: 0px 6px 1px 6px;
 }
+
+@mixin shadow ($color) {
+	-webkit-box-shadow: 0px 2px 10px $color;
+	-moz-box-shadow: 0px 2px 10px $color;
+	-ms-box-shadow: 0px 2px 10px $color;
+	-o-box-shadow: 0px 2px 10px $color;
+	box-shadow: 0px 2px 10px $color;
+}

@@ -1,6 +1,9 @@
 .content-wrap {
 
-	max-width: 1400px;
+	max-width: 1200px;
+	margin: 24px auto;
+	padding-left: 10px;
+	padding-right: 10px;
 
 
 	.presentation-avatar {
@@ -12,8 +15,11 @@
 	}
 
 	section {
+		padding-top: 24px;
+		padding-bottom: 24px;
+		margin-bottom: 24px;
 		background-color: white;
-		margin: 16px;
+		@include shadow(#AAB1AA);
 	}
 
 	h2 {
@@ -26,4 +32,55 @@
 		border-bottom: 3px solid $black-color;
 	}
 
+	p {
+		margin-left: 24px;
+		margin-right: 24px;
+	}
+}
+
+.use-form {
+	font-family: $brand-font-stack;
+	text-align: center;
+	display: block;
+	width: 100%;
+	padding-top: 14px;
+}
+
+#contact-form {
+	max-width: 600px;
+	font-family: $base-font-stack;
+	padding: 24px;
+	margin: 0px auto;
+	input {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		border: 2px solid $black-color;
+		width: 49%;
+		margin-bottom: 5px;
+		&[name="name"]{
+			float: left;
+		}
+		&[name="_replyto"]{
+			float: right;
+		}
+		&[value="Send"]{
+			float: right;
+			width: 30%;
+			background-color: transparent;
+			&:hover {
+				color: $brand-color;
+				border-color: $brand-color;
+			}
+		}
+	}
+	textarea {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 100%;
+		height: 150px;
+		border: 2px solid $black-color;
+		resize: none;
+	}
 }
