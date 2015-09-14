@@ -12,6 +12,7 @@
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;
 		width: 250px;
+		margin-left: 24px;
 	}
 
 	section, article {
@@ -24,7 +25,19 @@
 		img {
 			width: 98.5%;
 			margin: 0px;
+			margin-right: 24px;
 		}
+
+		.post-title {
+			margin: 6px 24px 4px 24px;
+		}
+
+		.post-excerpt {
+			margin: 0;
+			margin-left: 24px;
+			margin-right: 24px;
+		}
+
 
 	}
 

@@ -10,12 +10,12 @@ title: /blog
 			<a href="{{site.baseurl}}{{post.url}}">
 				<h2>{{post.date | date_to_string }}</h2>
 				<br>
-				<span class="post-title">{{ post.title }}</span>
-				{% if post.subtitle %}<span class="post-subtitle">{{post.subtitle}}</span>{% endif %}<br>
-				{% if post.excerpt %}<span class="post-excerpt">{{ post.excerpt | strip_html | strip_newlines }}{% endif %}<em> read blog post </em><span class="entypo-right-open icon arrow"></span></span><br>
+				<h3 class="post-title">{{ post.title }}</h3>
+				{% if post.subtitle %}<h4 class="post-subtitle">{{post.subtitle}}</h4>{% endif %}
+				{% if post.excerpt %}<p class="post-excerpt">{{ post.excerpt | strip_html | strip_newlines }}{% endif %}<em> read blog post </em><span class="entypo-right-open icon arrow"></span></p><br>
 			</a>
 		{% endfor %}
-		
+
 		<div class="archive-nav">
 			<a href="{{site.baseurl}}/archive/posts/" class="btn" id="archive-btn">Archive</a>
 		</div>

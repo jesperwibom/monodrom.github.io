@@ -24,4 +24,7 @@ The polygons were made quite small and together with the colors in the gradients
 Btw, funny story. I printed a copy on meticulously chosen paper stock and framed it in an antique frame. I gave this as a gift to my girlfriend. But apparently I had hyped my gift to much and she was quite disappointed that the gift was not the "expected wedding ring." :/ (It's coming sometime, babe. <3 You know it!)
 
 ![A picture of the different stages of the illustration](../../../../img/polygon-portrait-process.jpg "Polygon portrait process")
+The four stages of the process.
+
 ![The final illustration](../../../../img/polygon-portrait-final.jpg "Polygon portrait final")
+The final result!
