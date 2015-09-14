@@ -18,6 +18,8 @@ tags:
 - java
 - prototyping
 - development
+
+note:
 ---
 
 Like Light is a concept where a burning candle 'likes' a page on Facebook. As long as the candle burns the 'like' is active. But if you blow out the flame or if the candle burns down, the 'like' disappears.
