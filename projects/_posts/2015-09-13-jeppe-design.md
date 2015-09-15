@@ -9,7 +9,7 @@ date:
   completed: 2015-09-13
 
 images:
-  gallery: img/jeppe-design/gallery.jpg
+  gallery: img/jeppe-design/splash.jpg
   splash: img/jeppe-design/splash.jpg
 
 tags:

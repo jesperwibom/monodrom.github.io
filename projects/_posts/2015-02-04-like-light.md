@@ -9,7 +9,7 @@ date:
   completed: 2015-02-20
 
 images:
-  gallery: img/like-light/gallery.jpg
+  gallery: img/like-light/splash.jpg
   splash: img/like-light/splash.jpg
 
 tags:

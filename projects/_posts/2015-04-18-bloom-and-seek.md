@@ -9,7 +9,7 @@ date:
   completed: 2014-06-10
 
 images:
-  gallery: img/bloom-and-seek/gallery.jpg
+  gallery: img/bloom-and-seek/gallery.png
   splash: img/bloom-and-seek/splash.jpg
 
 tags:

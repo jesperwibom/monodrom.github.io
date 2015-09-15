@@ -16,17 +16,26 @@
 }
 
 .project-gallery {
+	text-align: center;
+	margin-right: 40px;
+	ul {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 	li{
 		display: inline-block;
+		padding: 10px;
 	}
 }
 
 .project-wrap {
-	width: 250px;
-	height: 250px;
+	width: 270px;
+	height: 320px;
 	overflow: hidden;
-	float: left;
 	border: $frame-thicknesss solid $black-color;
+	display: inline-block;
+
 }
 
 .clear {
