@@ -9,8 +9,8 @@ date:
   completed: 2015-09-13
 
 images:
-  gallery:
-  splash:
+  gallery: img/jeppe-design/gallery.jpg
+  splash: img/jeppe-design/splash.jpg
 
 tags:
 - "front-end"
