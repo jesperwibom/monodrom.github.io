@@ -1,0 +1,47 @@
+---
+layout: special
+
+title:  "Journey to Viking Nirvana"
+subtitle: ""
+date:
+  completed: 2016-01-31
+  started: 2016-01-29
+
+
+images:
+  gallery:
+  header:
+
+tags:
+- global game jam
+- unity 5
+- c#
+---
+
+
+
+
+    <p style="text-align: center;"><span>Unity WebGL Player | </span>Journey to Viking Nirvana</p>
+
+      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px" style="display: block;margin-left:auto; margin-right: auto;" tabindex="1">
+      </canvas>
+
+      <div class="fullscreen" style="position:relative; margin-left:auto; margin-right:auto; width:960px; height:6px;">
+        <img src="{{ site.baseurl }}/apps/viking-nirvana/TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" style=" position:relative; left:10px; top: -560px;"/>
+      </div>
+
+
+
+
+    <script type='text/javascript'>
+      var Module = {
+        TOTAL_MEMORY: 268435456,
+        errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+        compatibilitycheck: null,
+        dataUrl: "{{ site.baseurl }}/apps/viking-nirvana/Release/Journey To Viking Nirvana.data",
+        codeUrl: "{{ site.baseurl }}/apps/viking-nirvana/Release/Journey To Viking Nirvana.js",
+        memUrl: "{{ site.baseurl }}/apps/viking-nirvana/Release/Journey To Viking Nirvana.mem",
+      };
+    </script>
+
+    <script src="{{ site.baseurl }}/apps/viking-nirvana/Release/UnityLoader.js"></script>

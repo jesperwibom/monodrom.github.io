@@ -7,13 +7,15 @@ title: /blog
 <section class="content-wrap">
 	<section>
 		{% for post in site.categories.blog %}
-			<a href="{{site.baseurl}}{{post.url}}">
-				<h2>{{post.date | date_to_string }}</h2>
-				<br>
-				<h3 class="post-title">{{ post.title }}</h3>
-				{% if post.subtitle %}<h4 class="post-subtitle">{{post.subtitle}}</h4>{% endif %}
-				{% if post.excerpt %}<p class="post-excerpt">{{ post.excerpt | strip_html | strip_newlines }}{% endif %}<em> read blog post </em><span class="entypo-right-open icon arrow"></span></p><br>
-			</a>
+			<div class="post-wrap">
+				<a href="{{site.baseurl}}{{post.url}}">
+					<h2>{{post.date | date_to_string }}</h2>
+					<br>
+					<h3 class="post-title">{{ post.title }}</h3>
+					{% if post.subtitle %}<h4 class="post-subtitle">{{post.subtitle}}</h4>{% endif %}
+					{% if post.excerpt %}<p class="post-excerpt">{{ post.excerpt | strip_html | strip_newlines }}{% endif %}<em> read blog post </em><span class="entypo-right-open icon arrow"></span></p><br>
+				</a>
+			</div>
 		{% endfor %}
 
 		<div class="archive-nav">

@@ -1,0 +1,110 @@
+---
+---
+@import url(http://fonts.googleapis.com/css?family=Cabin:400,400italic,700);
+@import url(http://fonts.googleapis.com/css?family=Arvo:700,700italic,400italic);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+html,body,div {
+	padding: 0;
+	margin: 0;
+
+}
+
+body{
+	background-image: url({{ site.baseurl }}/blog/img/jamestown/background.png);
+	background-size: cover;
+
+}
+
+.content-wrapper{
+	padding: 15px;
+}
+
+p {
+	font-family: cabin, sans-serif;
+	font-size: 14pt;
+}
+
+.title{
+	margin: 30px 15px;
+	text-align: center;
+}
+
+.title img {
+	width: 100%;
+	margin-top: 12%;
+}
+
+.title hr {
+	width: 70%;
+	height: 4pt;
+	border-style: none;
+	background-color: white;
+}
+
+.title p {
+	font-family: Arvo, sans-serif;
+	font-size: 20pt;
+	color: white;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: 4pt solid white;
+	border-bottom: 4pt solid white;
+	padding: 20px;
+}
+
+.content {
+	margin: 15px;
+	margin-top:17%;
+	padding-top: 70px;
+	padding: 20px;
+	min-height: 100vh;
+	background-color: white;
+	background: linear-gradient( rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 15%,rgba(255, 255, 255, 0.9) 75%,rgba(255, 255, 255, 0.95) 100%);
+	max-width: 920px;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-box-shadow: 0px 4px 5px #704640;
+	-moz-box-shadow: 0px 4px 5px #704640;
+	-ms-box-shadow: 0px 4px 5px #704640;
+	-o-box-shadow: 0px 4px 5px #704640;
+	box-shadow: 0px 4px 5px #704640;
+}
+
+.text{
+	padding-bottom: 10px;
+	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.text .quote {
+	border-left: 15px solid #E74287;
+	padding-left: 10px;
+	font-family: arvo, sans-serif;
+	font-style: italic;
+}
+
+.text p {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+
+}
+
+img {
+	border: none;
+	margin: 0;
+}
+
+nav.header-nav{
+	background: linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0));
+	
+}
+
+footer{
+	position: relative;
+	bottom: -24px;
+}
+
+.copy-note{
+	font-size: 12pt;
+}

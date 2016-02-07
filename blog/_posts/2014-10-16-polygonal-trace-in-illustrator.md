@@ -5,8 +5,8 @@ category: blog
 title:  "Polygonal trace in Illustrator"
 subtitle:
 date:
-  started: 2014-10-13
   completed: 2014-10-16
+  started: 2014-10-10
 
 images:
   gallery: img/polygon-portrait/polygon-portrait-gallery.jpg

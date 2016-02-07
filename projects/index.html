@@ -9,10 +9,9 @@ title: /projects
 		<ul class="project-gallery">
 			{% for project in site.categories.projects limit:6 %}
 			<div class="project-wrap" style="
-				background: linear-gradient(13deg,
-					rgba(39, 40, 218, 0.45),
-					rgba(239, 140, 218, 0.45),
-					rgba(50, 240, 200, 0.45)),
+				background: linear-gradient(90deg,
+					rgba(255, 255, 255, 0.8) 0%,
+					rgba(255, 255, 255, 0.2)) 100%,
 					url({{ site.baseurl }}/{{ project.category }}/{{ project.images.gallery }});
 				-webkit-background-size:cover;
 				-moz-background-size:cover;
@@ -20,13 +19,13 @@ title: /projects
 				background-size:cover;
 				overflow: hidden;
 		">
-			<li>
-				<a href="{{site.baseurl}}{{project.url}}">
-					<span class="project-title">{{ project.title }}</span>
-					{% if project.subtitle %}<span class="project-subtitle">{{project.subtitle}}</span>{% endif %}<br>
-					{% if project.excerpt %}<span class="project-excerpt">{{ project.excerpt | strip_html | strip_newlines }}{% endif %}<em> go to case studie </em><span class="entypo-right-open icon arrow"></span></span>
-				</a>
-			</li>
+				<li>
+					<a href="{{site.baseurl}}{{project.url}}">
+						<span class="project-title">{{ project.title }}</span>
+						{% if project.subtitle %}<br><span class="project-subtitle">{{project.subtitle}}</span>{% endif %}<br>
+						{% if project.excerpt %}<span class="project-excerpt">{{ project.excerpt | strip_html | strip_newlines }}{% endif %} <span class="entypo-right-open icon arrow"></span></span>
+					</a>
+				</li>
 			</div>
 			{% endfor %}
 		</ul>

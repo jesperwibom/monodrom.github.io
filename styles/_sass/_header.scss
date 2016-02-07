@@ -9,20 +9,34 @@ header {
 	@include shadow(#AAB1AA);
 
 	h1 {
-		color: $black-color;
+
 		font-family: $brand-font-stack;
 		font-weight: $bold;
 		font-style: italic;
-		font-size: 16vh;
-		margin-top: 0.05em;
-		margin-bottom: 0.15em;
-		padding-left: 24px;
-		line-height: 100%;
 
+		margin-top: 0.15em;
+		margin-bottom: 0.25em;
+
+		padding-left: 24px;
+		padding-top: 6px;
+		padding-bottom:14px;
+		padding-right: 10px;
+
+		line-height: 100%;
+		font-size: 8vh;
+		color: $white-color;
+		background-color: $black-color;
+		display: inline-block;
+
+
+		.title {
+
+		}
 
 	}
 
 	.header-text {
+		margin-bottom: 8px;
 		.text {
 			color: $white-color;
 			background-color: $black-color;
@@ -38,6 +52,8 @@ header {
 			border-color: $black-color;
 			font-family: $brand-font-stack;
 			font-size: 12pt;
+			margin: 8px 0px 0px 6px;
+			display: inline-block;
 		}
 		.subtitle {
 			font-size: 14pt;

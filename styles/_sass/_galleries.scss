@@ -4,6 +4,13 @@
 	font-size: 14pt;
 }
 
+.project-title {
+	font-size: 20pt;
+	background-color: $black-color;
+	color: $white-color;
+	padding: 0px 6px;
+}
+
 .project-subtitle, .post-subtitle, .archive-subtitle {
 	font-family: $brand-font-stack;
 	font-weight: $regular;
@@ -11,17 +18,27 @@
 	font-size: 14pt;
 }
 
+.project-subtitle{
+	margin-top: 1%;
+	display: block;
+}
+
 .project-excerpt, .post-excerpt, .archive-excerpt {
 	font-family: $base-font-stack;
 }
 
+.project-excerpt {
+	display: block;
+	margin-top: 1%
+}
+
+
+
 .project-gallery {
 	text-align: center;
-	margin-right: 40px;
-	ul {
-		margin-left: auto;
-		margin-right: auto;
-	}
+	padding-left: 0px;
+	margin-left: auto;
+	margin-right: auto;
 
 	li{
 		display: inline-block;
@@ -30,12 +47,19 @@
 }
 
 .project-wrap {
-	width: 270px;
-	height: 320px;
+	width: 90%;
+	height: 230px;
 	overflow: hidden;
 	border: $frame-thicknesss solid $black-color;
-	display: inline-block;
+	display: block;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	@include shadow(#AAB1AA);
+}
 
+.post-wrap{
+	margin-bottom: 20px;
 }
 
 .clear {

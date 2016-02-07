@@ -25,8 +25,8 @@ tags:
 note:
 ---
 
-The final project, year one at interaction-design was a five week project encompassing several different technologies and design paradigms. The goal was to create a multi-device application for Android-phones and public screens. It was also going to be place-specific to Malmö university's new building, called 'Niagara'.
-<!--more-->
+The final project, year one at interaction-design was a five week project encompassing several different technologies and design paradigms.<!--more-->  The goal was to create a multi-device application for Android-phones and public screens. It was also going to be place-specific to Malmö university's new building, called 'Niagara'.
+
 
 Furthermore, the display application should provide different functionality than the Android app. The android app should also be a control for some of the screens functions and, finally, the communication between all modules were to be made using Firebase, an asynchronous database service.
 

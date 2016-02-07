@@ -5,8 +5,9 @@ category: blog
 title:  "Samsung's current IoT initiative"
 subtitle: "and the open Artik development platform"
 date:
-  started: 2015-12-05
   completed: 2014-12-13
+  started: 2015-12-05
+
 
 images:
   gallery: img/samsungs-iot-initiative/gallery.jpg
