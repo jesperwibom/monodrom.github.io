@@ -10,7 +10,7 @@ date:
 
 images:
   gallery: img/bloom-and-seek/gallery.png
-  splash: img/bloom-and-seek/splash.jpg
+  splash: img/bloom-and-seek/concept-card.jpg
 
 tags:
 - arduino
@@ -43,46 +43,30 @@ The idea was to build a casual gaming experience, a scavanger hunt, where the pl
 
 The player was given information on the public screens about the location of the treasures. They then had to scan these treasures by scanning the correct qr-code. The qr-codes where distributed around the building and the public screens provided an top-view map over the building.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/i6TB_mRXQ40" frameborder="0" allowfullscreen></iframe>
+<iframe style="width:95%; height:50vh;" src="https://www.youtube.com/embed/i6TB_mRXQ40" frameborder="0" allowfullscreen></iframe>
 
 We originally envisioned the treasure items to not be qr-codes. Alternatives that were proposed was NFC modules and checking location data. Location data was not expected to work in such a large building and NFC modules where to costly and would taken to much time to ship. So we made qr-codes our stand in for NFC.
 
-For user testing purposes we also made a large-ish sized led matrix, 1x1 meter, that could give users adeqvuat feedback. A full-blown light installation was to expensive to realize in this early state of the project.
+For user testing purposes we also made a large-ish sized led matrix, 1x1 meter, that could give users adequate feedback. A full-blown light installation was to expensive to realize in this early state of the project.
 
-Below you can see a picture over how all these parts where going to communicate. IoT plant is a Arduino Uno connected to a Raspberry Pi B+. (Firebase only allows http**s** requests and a Raspberry Pi is the cheapest way to achive this.)
+Below you can see a picture over how all these parts where going to communicate. IoT plant is a Arduino Uno connected to a Raspberry Pi B+. (Firebase only allows http**s** requests and a Raspberry Pi is the cheapest way to achieve this.)
+
 ![Flow chart](../../../../img/bloom-and-seek/concept-flow-chart.svg "Flow chart")
-
-
-
 
 ![Vision](../../../../img/bloom-and-seek/concept-vision.jpg "Vision")
 
 ##Development
 
-
-
-
 ![Storyboard](../../../../img/bloom-and-seek/concept-storyboard.jpg "Storyboard")
-
-
-
 
 ![Graphical profile](../../../../img/bloom-and-seek/graphical-profile.png "Graphical profile")
 
-##User testing & iteration
-
-
+##User testing
 
 ![User testing](../../../../img/bloom-and-seek/user-testing.jpg "User testing")
-
-
-
 
 ![Inventory sketch](../../../../img/bloom-and-seek/inventory-sketch.jpg "Inventory sketch")
 
 ##Conclusion
-
-
-
 
 ![Concept card](../../../../img/bloom-and-seek/concept-card.jpg "Concept card")
