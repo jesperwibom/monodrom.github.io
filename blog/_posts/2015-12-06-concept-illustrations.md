@@ -21,6 +21,8 @@ tags:
 
 Some recent illustrations I've made for various school projects and concepts. Most are sketched, traced and colored.<!--more-->
 
+## The Dash-card
+
 The dash card was a complementary concept/reimagine of the Amazon Dash button. Made by sketching, tracing and finally coloring with ProMarkers. (Red Bull logo aside, the illustration came out looking a bit like their marketing.)
 
 ![Dash card illustration](../../../../img/concept-illustrations/dash-illustration.jpg "Dash card illustration")
@@ -30,9 +32,15 @@ In this concept the members of Amazon Prime were meant to be sent a member-card 
 
 ![Dash card presentation](../../../../img/concept-illustrations/dash-concept-card.jpg "Dash card presentation")
 
+
+## Woof playdate service
+
 This is a concept illustration about a tracking dog collar and a complementary "playdate for dogs"-service. The illustration of the 'Woof'-concept demanded some biological shapes (dogs) which I am really bad at drawing freestyle. :( So I made a quick photo composite of fitting google images search results and traced over these instead. I thereafter colored the illustration with awesome ProMarkers!
 
 ![Woof concept illustration](../../../../img/concept-illustrations/woof-illustration.jpg "Woof concept illustration")
+
+
+## PackIt delivery service
 
 This last illustration is for an current ongoing school project focusing on logistics and IoT. It is uncolored as it has not been used for presentation, only to talk about the concept between team members and and explain it to our teachers.
 

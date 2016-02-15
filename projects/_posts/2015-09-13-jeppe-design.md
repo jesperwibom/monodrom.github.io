@@ -34,7 +34,7 @@ I knew from the start that I wanted a combined platform for both a blog and a pr
 The technical demands of this type of site is nothing special or even demanding so a content management system, a CMS like Wordpress, seemed at the time redundant and risked increasing the complexity unnecessarily. Like so many others before me, I found out about and started using Jekyll. Jekyll is a static site generator and it helped me to create a fully static site, without any database or server running tasks.
 
 
-##Design
+## Design
 
 Since this site represents my professional self, albeit with a personal touch, fairly much work has gone into the presentation, aesthetics, navigation and branding aspects of the design. Keep in mind that I am not an expert on branding or marketing, I still do believe that these are also very important aspects of design, especially when it comes to present yourself. Anyway, I gave it my best shoot and you, the viewer, have to judge by yourself if the endeavour was successful.
 
