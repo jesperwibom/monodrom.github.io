@@ -30,7 +30,9 @@ The final project, year one at interaction-design was a five week project encomp
 
 Furthermore, the display application should provide different functionality than the Android app. The android app should also be a control for some of the screens functions and, finally, the communication between all modules were to be made using Firebase, an asynchronous database service.
 
+
 ##Concept creation
+
 We were divided in random teams of 7 persons/team and were given our own project rooms("the war-room"). We started creating our concept imediaetly by going around the table and discussing previous experiences with these kinds of multi-device and place-specific projects. Turned out that this group was phenomenal at generating ideas, most of them really good!
 
 After a myrriad of concepts where placed on our whiteboard, we had the daunting task of reducing these good ideas into a single great one. We sorted the concepts into groups of relating categories.  
@@ -55,18 +57,24 @@ Below you can see a picture over how all these parts where going to communicate.
 
 ![Vision](../../../../img/bloom-and-seek/concept-vision.jpg "Vision")
 
+
 ##Development
+
 
 ![Storyboard](../../../../img/bloom-and-seek/concept-storyboard.jpg "Storyboard")
 
 ![Graphical profile](../../../../img/bloom-and-seek/graphical-profile.png "Graphical profile")
 
+
 ##User testing
+
 
 ![User testing](../../../../img/bloom-and-seek/user-testing.jpg "User testing")
 
 ![Inventory sketch](../../../../img/bloom-and-seek/inventory-sketch.jpg "Inventory sketch")
 
+
 ##Conclusion
+
 
 ![Concept card](../../../../img/bloom-and-seek/concept-card.jpg "Concept card")
