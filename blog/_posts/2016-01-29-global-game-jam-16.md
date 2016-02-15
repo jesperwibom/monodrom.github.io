@@ -26,7 +26,6 @@ Together we had 48h to complete a game, from concept to fully playable state. Th
 
 ![Conceptualizing is best done with a proper whiteboard!]({{baseurl}}/blog/img/ggj16/process.jpg)
 
-<br>
 
 If this sounds *pretentious* or sounds as we thought about it *to much*, you will be pleased to know that the final concept we decided to go with was a very simple side scrolling action game where you played a viking "sacrificing" animals on your way to nirvana! (Yes, nirvana not Valhalla.) The full title was 'Sacrifice All the Animals On Your Journey To Nirvana'.
 
@@ -34,12 +33,10 @@ If this sounds *pretentious* or sounds as we thought about it *to much*, you wil
 <br>
 ![Screenshots from final game]({{baseurl}}/blog/img/ggj16/screenshots.jpg)
 
-<br>
 
 I think we all thought the jam was a success, even though the game won't win any prices, because we focused on the *process* of creating games, not the finished result. We didn't work 24/7, we didn't implement to fancy features. Instead we kept it simple so that we could test stuff as working in Unity's 2d engine, version control in unity projects using git, concept creation, a little bit scrum, asset integration, project structure and a lot of other stuff. We are interaction designer after all, not game developers. This live environment that pushed us to complete our game also was a great testing ground for our design and project management skills.
 
 ![The team]({{baseurl}}/blog/img/ggj16/team.jpg)
-
 <br>
 
 **[Play the game]({{ site.baseurl }}/apps/viking-nirvana/index.html)** *(not suitable for mobile devices)*

@@ -19,7 +19,9 @@ tags:
 - hand-drawn
 ---
 
-Some recent illustrations I've made for various school projects and concepts. Most are sketched, traced and colored.<!--more-->
+Some recent illustrations I've made for various school projects and concepts. Sketched, traced and colored.<!--more-->
+
+<br>
 
 ## The Dash-card
 
@@ -32,6 +34,7 @@ In this concept the members of Amazon Prime were meant to be sent a member-card 
 
 ![Dash card presentation](../../../../img/concept-illustrations/dash-concept-card.jpg "Dash card presentation")
 
+<br>
 
 ## Woof playdate service
 
@@ -39,6 +42,7 @@ This is a concept illustration about a tracking dog collar and a complementary "
 
 ![Woof concept illustration](../../../../img/concept-illustrations/woof-illustration.jpg "Woof concept illustration")
 
+<br>
 
 ## PackIt delivery service
 
