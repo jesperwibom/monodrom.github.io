@@ -45,7 +45,7 @@ The idea was to build a casual gaming experience, a scavanger hunt, where the pl
 
 The player was given information on the public screens about the location of the treasures. They then had to scan these treasures by scanning the correct qr-code. The qr-codes where distributed around the building and the public screens provided an top-view map over the building.
 
-<iframe style="width:95%; height:50vh;" src="https://www.youtube.com/embed/i6TB_mRXQ40" frameborder="0" allowfullscreen></iframe>
+<iframe style="width:94%; height:50vh;" src="https://www.youtube.com/embed/i6TB_mRXQ40" frameborder="0" allowfullscreen></iframe>
 
 We originally envisioned the treasure items to not be qr-codes. Alternatives that were proposed was NFC modules and checking location data. Location data was not expected to work in such a large building and NFC modules where to costly and would taken to much time to ship. So we made qr-codes our stand in for NFC.
 
