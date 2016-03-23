@@ -5,8 +5,8 @@ category: blog
 title:  "Feeling dirty:"
 subtitle: "Cheating in Fez"
 date:
-  completed: 2016-03-20
-  started: 2016-03-18
+  completed: 2016-03-17
+  started: 2016-03-15
 
 images:
   gallery:
