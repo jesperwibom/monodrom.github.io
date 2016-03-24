@@ -10,7 +10,7 @@ date:
 
 images:
   gallery:
-  header: img/fez/cover.jpg
+  header: img/helldivers/cover.jpg
 
 tags:
 - game design
