@@ -65,3 +65,17 @@
 .clear {
 	clear: both;
 }
+
+ul .project-tags {
+	padding: 0px;
+}
+
+.gallery-tag {
+	color: $black-color;
+	border-color: $black-color;
+	font-family: $brand-font-stack;
+	font-size: 12pt;
+	margin: 8px 0px 0px 6px;
+	display: inline-block;
+	padding: 2px !important;
+}

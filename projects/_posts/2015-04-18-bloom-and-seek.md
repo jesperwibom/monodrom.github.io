@@ -13,6 +13,7 @@ images:
   splash: img/bloom-and-seek/concept-card.jpg
 
 tags:
+- app development
 - arduino
 - android
 - java

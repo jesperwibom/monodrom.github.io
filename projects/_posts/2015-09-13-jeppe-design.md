@@ -13,8 +13,8 @@ images:
   splash: img/jeppe-design/splash.jpg
 
 tags:
-- "front-end"
 - web development
+- "front-end"
 - javascript
 - jquery
 - html

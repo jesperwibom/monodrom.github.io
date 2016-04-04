@@ -13,6 +13,7 @@ images:
   splash: img/like-light/splash.jpg
 
 tags:
+- critical design
 - arduino
 - processing
 - java
