@@ -124,3 +124,12 @@ header {
 
 
 }
+
+@media (max-width: 376px) {
+  .header-nav {
+		font-size: 24px !important;
+	}
+	.title{
+		font-size: 40px !important;
+	}
+}
