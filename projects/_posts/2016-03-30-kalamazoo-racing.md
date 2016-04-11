@@ -53,15 +53,26 @@ The experience with the first controller prototype led us to create a more arcad
 ## Game development
 
 ![Planning track-prefabs](../../../../img/handcar/planning-prefabs.jpg "Drawing the different game objects necessary")
+*The different track pieces needed to make a level were first planned on a whiteboard. These were then created in Unity and used to create the levels. The original idea was to have them procedurally generated for a endless-mode. But, yeah, procedural generation is tricky and we quickly abandoned that idea.*
 
 ![Level design](../../../../img/handcar/level-design.jpg "Sketches of the first couple of levels")
-
-## Testing
+*Levels were first drawn on strips of paper to get a quick overview, to discuss the layout and approximate difficulty.*
 
 ![Kids playing](../../../../img/handcar/kids-playing.jpg "Some awesome kids try out the game at the  Arduino day 2016 event")
+*We had the opportunity to bring our game to Arduino day -16 in Malmö, Sweden.*
 
-## End result and reflection
+## Difficulties
+
+Working with this project went mostly fine. Some steps in the concept development phase were allowed to consume a bit too much time, time that could have been spent better in the later stages of the project. A good conceptual foundation is necessary for a successful result but I do imagine that if we would have been untethered to our course's schedule we would have had better time allocation.
+
+The complexity of our envisioned interaction led to technical difficulties both in game development, controller programming and prototype building. This pushed back our external game-play sessions. Most notably this can be seen in the player feedback from the game, UI and rushed level design. Because no time was available to build a simple level editor (or some form of level construction editor tools) level creation was very time consuming. Levels were only internally tested and power-ups and checkpoint mechanics were underdeveloped.
 
 <iframe style="width:94%; height:50vh;" src="https://www.youtube.com/embed/rT71GFQMS9Q" frameborder="0" allowfullscreen></iframe>
+
+## Result
+
+For all its flaws, however, there was one thing that our game-play tests, internal presentation and showcase at 'Arduino day -16' showed; it was fun! People liked it (kids *loved* it) and spectators *were* intrigued and wanted to try it out for themselves. I could not imagine a better complement as an interaction designer than players actually *wanting* to interact with our game.
+
+This project really showed that the concept is viable. The goal for the course was to create a fun game with a novel way of interacting and controlling it. With this in mind I think it was a clear win and I would love to get the opportunity in the future to take this different interaction further. I can really see an amazing arcade cabinet with some weird pump-controller sticking out! 
 
 <iframe style="width:94%; height:50vh;" src="https://www.youtube.com/embed/6hWU9RCgwFc" frameborder="0" allowfullscreen></iframe>
